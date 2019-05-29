@@ -1,0 +1,83 @@
+/*
+* Olivia Schroeder
+* Due Date
+* Final Project
+*/
+
+/* The universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, monospace, sans-serif;
+}
+
+/* Body Attributes */
+body {width: 90%; 
+    margin: auto;
+    background-color:#EFDDC3;}
+
+/* Header With background Attributes */
+#naheader {border: 10px solid #1F415B;
+    background-color:#EA9395;
+    padding:20px;
+    text-align:center;
+    margin-bottom:5px;}
+
+/* MAin Attributes */
+main {float:left; 
+    width:63.5%;
+    border:5px solid #1F415B;}
+
+/* Left Side Bar Attributes */
+#SB-A {float:left;
+    width:17%;
+    border-left:5px solid #1F415B;
+    border-bottom:5px solid #1F415B;
+    border-top:5px solid #1F415B;
+    text-align:center;
+    background-color:#EA9395;}
+
+/* Right Side Bar Attributes */
+#SB-B {float:left;
+    width:17%;
+    border-right:5px solid #1F415B;
+    border-bottom:5px solid #1F415B;
+    border-top:5px solid #1F415B;
+    text-align:center;
+    background-color:#EA9395;
+    margin-bottom:120px;}
+
+/* H5 Attributes */
+h5 {margin-top:5px;}
+
+/* List Attributes */
+ul, li {list-style-position: inside;}
+li {margin-top:12px;}
+
+/* Images in header Attributes */
+#-imgshead {height:200px;
+    margin-left:20px;
+    width:200px;
+    margin-bottom:2px;}
+#--imgshead {height:200px;
+    margin-left:200px;
+    margin-right:220px;
+    margin-bottom:2px;}
+#---imgshead {height:200px;
+    margin-right:25px;
+    margin-bottom:2px;}
+
+/* Footer Attributes */
+footer {float:clear;
+    margin-bottom:10px;
+    float:left;
+    margin-top:50px;}
+
+/* paragraph in main Attributes */
+.pmain {padding:10px;}
+
+/* Links Attributes */
+a:link, a:visited {color:#1F415B;
+    text-decoration:none;
+    font-size:100%}
+a:hover, a:focus {font-size:150%;}
